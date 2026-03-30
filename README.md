@@ -86,6 +86,29 @@ Operações implementadas:
     • potência 
 Sem usar operadores * ou /.
 
+Descrição da Atividade 02
+
+Atividade 02 – Operadores Aritméticos em C++
+
+Esta atividade tem como objetivo praticar o uso de operadores aritméticos na linguagem C++. Foram desenvolvidos 15 programas que realizam diferentes cálculos matemáticos, utilizando operações como soma, subtração, multiplicação, divisão e módulo.
+
+Cada exercício foi implementado em um arquivo separado, permitindo a execução individual dos algoritmos e facilitando a organização do projeto.
+
+Os exercícios abordam problemas como:
+
+soma de dois números
+subtração de dois números
+multiplicação e divisão
+cálculo do resto da divisão
+média de valores
+cálculo de áreas geométricas
+distância entre dois pontos
+aumento de preço com porcentagem
+soma de progressão aritmética
+média ponderada de notas
+
+Essa atividade contribui para o desenvolvimento do raciocínio lógico e para a compreensão da aplicação de operadores aritméticos na programação.
+
 ⚙️ Tecnologias Utilizadas
     • Java 
     • Maven 
