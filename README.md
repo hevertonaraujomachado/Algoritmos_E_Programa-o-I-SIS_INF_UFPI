@@ -1,72 +1,131 @@
-Descrição dos Exercícios
-1. Problema do Atletismo
+💻 Algoritmos e Programação I – SIS_INF – UFPI
 
-Este exercício resolve um problema de lógica envolvendo três atletas:
+Repositório contendo a implementação de exercícios de lógica de programação desenvolvidos em Java, utilizando organização em pacotes e conceitos fundamentais de algoritmos.
+
+📚 Disciplina
+
+Algoritmos e Programação I
+Curso: Sistemas de Informação – UFPI
+
+🎯 Objetivo
+
+Aplicar conceitos de:
+
+lógica de programação
+algoritmos
+recursão
+estruturas de repetição
+organização de código em pacotes
+programação orientada a objetos
+📂 Estrutura do Projeto
+src/main/java
+└── ufpi.sistema.algoritimo.programacao
+    ├── atletismo
+    │   └── Atletismo.java
+    │
+    ├── barris
+    │   └── Barris.java
+    │
+    ├── hanoi
+    │   └── TorreHanoi.java
+    │
+    ├── matematica
+    │   └── OperacoesMatematicas.java
+    │
+    ├── pneu
+    │   └── TrocaPneuSolucao.java
+    │
+    └── Principal.java
+🧠 Exercícios Implementados
+🥇 1. Torneio de Atletismo
+
+Problema lógico envolvendo três atletas:
 
 Barnabé
 Gumercindo
 Teodoro
 
-Eles participam de três provas:
+Participantes das provas:
 
 100 metros rasos
 salto em distância
 arremesso de dardo
 
-O programa apresenta a classificação final de cada prova respeitando as condições fornecidas no problema.
+O programa determina a classificação final respeitando as regras fornecidas.
 
-2. Problema dos Barris
+🛢 2. Problema dos Barris
 
-O exercício simula a distribuição de água entre três barris com capacidades diferentes:
+Simulação da distribuição de água entre três barris:
 
-Barril A → 8 litros
-Barril B → 5 litros
-Barril C → 3 litros
+Barril	Capacidade
+A	8L
+B	5L
+C	3L
 
-O objetivo é realizar transferências entre os barris até obter o resultado:
+Objetivo final:
 
 A = 4 litros
 B = 4 litros
 C = 0 litros
-3. Troca de Pneu
+🚗 3. Troca de Pneu
 
-Este exercício apresenta um algoritmo que descreve os passos necessários para realizar a troca de um pneu de um veículo.
+Algoritmo que descreve os passos necessários para trocar um pneu de veículo.
 
-O programa lista as etapas da operação, desde estacionar o carro até instalar o pneu reserva.
+Etapas simuladas:
 
-4. Torre de Hanói
+Parar o carro
+Acionar freio de mão
+Afrouxar parafusos
+Levantar carro com macaco
+Remover pneu furado
+Instalar pneu reserva
+🗼 4. Torre de Hanói
 
-Implementação do clássico problema da Torre de Hanói utilizando recursão.
+Implementação do problema clássico da Torre de Hanói utilizando recursão.
 
-O objetivo é mover 4 discos da torre A para a torre B respeitando as regras:
+Objetivo:
+
+Mover 4 discos da torre A → B respeitando as regras:
 
 mover apenas um disco por vez
-um disco maior não pode ficar sobre um menor
-5. Operações Matemáticas
+disco maior não pode ficar sobre menor
+➕ 5. Operações Matemáticas
 
-Neste exercício foram implementadas operações matemáticas sem utilizar multiplicação ou divisão diretamente.
+Implementação de operações matemáticas utilizando apenas soma e subtração.
 
-As operações são realizadas utilizando apenas:
-
-soma
-subtração
-
-Foram implementados métodos para:
+Operações implementadas:
 
 multiplicação
 divisão
 potência
-Conceitos Aplicados
 
-Durante o desenvolvimento foram utilizados os seguintes conceitos de programação:
+Sem usar operadores * ou /.
 
-algoritmos
-lógica de programação
-estruturas de repetição (for, while)
-métodos
-recursão
-organização em pacotes
-programação orientada a objetos
-Conclusão
+⚙️ Tecnologias Utilizadas
+Java
+Maven
+Programação Orientada a Objetos
+▶️ Como Executar
 
-A atividade permitiu aplicar conceitos fundamentais de lógica de programação e organização de código em Java, reforçando o desenvolvimento de soluções estruturadas para problemas computacionais.
+Clone o repositório:
+
+git clone https://github.com/hevertonaraujomachado/Algoritmos_E_Programa-o-I-SIS_INF_UFPI.git
+
+Entre na pasta:
+
+cd Algoritmos_E_Programa-o-I-SIS_INF_UFPI
+
+Execute a classe:
+
+Principal.java
+
+👨‍💻 Autor
+
+Heverton Araújo Machado
+
+Curso: Sistemas de Informação
+Universidade Federal do Piauí – UFPI
+
+📖 Licença
+
+Projeto desenvolvido para fins acadêmicos e educacionais.
